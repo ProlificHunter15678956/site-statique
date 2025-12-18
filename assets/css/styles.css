@@ -101,4 +101,46 @@
     font-size: 1.2em;
 }
 
+.inscrip-color {
+    background: #44DD8A;
+    background: linear-gradient(90deg, rgba(68, 221, 138, 1) 0%, rgba(21, 183, 226, 1) 100%);
+}
 
+.star-sec-div {
+    opacity: 0.2;
+}
+
+.main-section-div-forma {
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    padding: 160px;
+}
+
+.h2-section-main {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 160px;
+    font-size: 36px;
+}
+
+.price-div {
+    display: flex;
+    gap: 10px;
+    color: white;
+    background-color: black;
+    width: 31%;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 15rem;
+}
+
+.top-div-main-section img {
+    width: 305px;
+    height: 200px;
+}
