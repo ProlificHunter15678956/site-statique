@@ -25,15 +25,18 @@
     font-size: 48px;
 }
 
-.main-h2 {
+.main-p {
     font-size: 20px;
 }
 
 .main-button {
     margin-top: 25px;
     padding: 6px;
-    font-size: 2em;
+    font-size: 1.4em;
     border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    border: none;
 }
 
 .header-div {
@@ -143,4 +146,33 @@
 .top-div-main-section img {
     width: 305px;
     height: 200px;
+}
+
+.bottom-div-formations {
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    display: grid;
+    gap: 5px;
+}
+
+.bottom-div-formations h2 {
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-main-btn {
+    border: none;
+    background-color: #152237;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    width: 225px;
+    height: 40px;
+}
+
+.bottom-main-btn-div {
+    border: 1px solid black;
+    align-items: center;
 }
