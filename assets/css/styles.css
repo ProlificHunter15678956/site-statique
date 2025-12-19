@@ -190,6 +190,7 @@
 }
 
 .bottom-main-btn-div {
-    border: 1px solid black;
+    justify-content: center;
     align-items: center;
+    
 }
