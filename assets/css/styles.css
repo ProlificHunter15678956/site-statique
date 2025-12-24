@@ -147,11 +147,34 @@
     font-size: 36px;
 }
 
+.h2-section-main-2 {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 160px;
+    font-size: 36px;
+    color: white;
+}
+
 .price-div {
     display: flex;
     gap: 10px;
     color: white;
     background-color: black;
+    width: 31%;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 15rem;
+}
+
+.price-div-2 {
+    display: flex;
+    gap: 10px;
+    background-color: white;
     width: 31%;
     align-items: center;
     padding: 5px;
@@ -180,6 +203,21 @@
     padding-bottom: 10px;
 }
 
+.bottom-div-formations-2 {
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    display: grid;
+    gap: 5px;
+    color: white;
+}
+
+.bottom-div-formations-2 h2 {
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .bottom-main-btn {
     border: none;
     background-color: #152237;
@@ -191,7 +229,31 @@
 }
 
 .bottom-main-btn-div {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 7em;
+}
 
+.bottom-main-btn-2 {
+    border: none;
+    background-color: #ffff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 225px;
+    height: 40px;
+}
+
+.section-3 {
+    background-color: #152237;
+}
+
+.avis-h2 h2 {
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top: 36px;
+}
+
+.div-avis-profiles {
+    display: flex;
 }
