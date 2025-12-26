@@ -257,3 +257,26 @@
 .div-avis-profiles {
     display: flex;
 }
+
+.circle-image {
+  width: 139px;
+  height: 139px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.circle-image img{
+  width:100%;
+}
+
+.h3-avis {
+    font-size: 24px;
+}
+
+.avis-profile-divs {
+    gap: 150px;
+
+}
