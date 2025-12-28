@@ -8,27 +8,34 @@
 
 .selector-filter {
     position: relative;
-    background: #44DD8A;
     background: linear-gradient(90deg, rgba(68, 221, 138, 1) 0%, rgba(21, 183, 226, 1) 100%);
+    height: 32.5em;
 }
 
 .background-image {
     background-image: url('../images/bg-header.png');
     background-repeat: no-repeat;
-    position: relative;
-    height: 520px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     opacity: 0.3;
+    z-index: 1;
 }
 
 
 .main-div {
+    position: relative;
+    z-index: 2;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .main-h1 {
@@ -214,8 +221,8 @@
 
 .bottom-div-formations-2 h2 {
     font-size: 23px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
 }
 
 .bottom-main-btn {
@@ -256,6 +263,7 @@
 
 .div-avis-profiles {
     display: flex;
+    margin: 10em;
 }
 
 .circle-image {
@@ -277,6 +285,25 @@
 }
 
 .avis-profile-divs {
-    gap: 150px;
+    gap: 9.375em;
 
+}
+
+.avis-profile-divs p {
+    padding-right: 35em;
+}
+
+.avantage-divs {
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.avantage-img {
+    text-align: right;
+}
+
+.avantage-img img {
+    width: 45.4375em;
+    height: 29.5em;
+    margin: 5em;
 }
