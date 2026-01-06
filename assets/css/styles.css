@@ -85,28 +85,6 @@
 
 
 
-@media (max-width: 1100px) {
-    .main-section-div-forma {
-        flex-direction: column;
-        grid-template-columns: repeat(3, 1fr);
-
-    }
-    
-}
-@media (max-width: 900px) {
-    .main-section-div-forma {
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-    
-}
-@media (max-width: 600px) {
-    .main-section-div-forma {
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    
-}
 
 .container-menu {
   display: none;
@@ -203,12 +181,38 @@
 
 .main-section-div-forma {
     align-items: center;
-    display: flex;
+    display: grid;
+    flex-direction: row;
     gap: 25px;
     padding: 160px;
     grid-template-columns: repeat(4, 1fr);
 
 }
+
+@media (max-width: 1480px) {
+    .main-section-div-forma {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    
+}
+
+@media (max-width: 1160px) {
+    .main-section-div-forma {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+}
+
+@media (max-width: 845px) {
+    .main-section-div-forma {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5em;
+
+    }
+}
+
 
 .individual-div-sec-2 {
     width: 100%;
@@ -233,25 +237,46 @@
     color: white;
 }
 
+@media screen and (max-width: 845px) {
+    .h2-section-main {
+        text-align: left;
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .h2-section-main-2 {
+        text-align: left;
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+}
+
 .price-div {
     display: flex;
     gap: 10px;
     color: white;
     background-color: black;
-    width: 31%;
+    width: 8em;
     align-items: center;
     padding: 5px;
     border-radius: 15px;
     position: relative;
     bottom: 20px;
     left: 15rem;
+
 }
 
 .price-div-2 {
     display: flex;
     gap: 10px;
     background-color: white;
-    width: 31%;
+    width: 8em;
     align-items: center;
     padding: 5px;
     border-radius: 15px;
@@ -310,6 +335,24 @@
     bottom: 7em;
 }
 
+@media screen and (max-width: 845px) {
+    .bottom-main-btn-div {
+        text-align: center;
+        position: relative;
+        bottom: 4em;
+        right: 18em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .bottom-main-btn-div {
+        text-align: center;
+        position: relative;
+        bottom: 4em;
+        right: 3em;
+    }
+}
+
 .bottom-main-btn-2 {
     border: none;
     background-color: #ffff;
@@ -331,7 +374,7 @@
 }
 
 .div-avis-profiles {
-    display: flex;
+    display: grid;
     margin: 10em;
 }
 
@@ -375,4 +418,10 @@
     width: 45.4375em;
     height: 29.5em;
     margin: 5em;
+}
+
+@media screen and (max-width: 465px) {
+    .avantage-divs {
+        display: grid;
+    }
 }
